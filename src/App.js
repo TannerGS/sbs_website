@@ -75,7 +75,7 @@ const App = () => {
                     />
                     <h6 className="text-xl font-semibold pt-10">Website Design and Development</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      We can design a custom website built specifically for your business needs! We also have cheaper options like custom templates for business with a tighter marketing budget.
+                      We can design a custom website built specifically for your business needs! We also have options like custom templates for business with a tighter marketing budget!
                     </p>
                   </div>
                 </div>
