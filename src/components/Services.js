@@ -120,7 +120,7 @@ const Services = () => {
                         <div>
                           <h4 className="text-gray-600">
                           <a
-                            href="/"
+                            href="/services"
                             className="font-bold text-gray-800 mt-8"
                           >
                             More!

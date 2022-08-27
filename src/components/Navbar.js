@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -51,7 +52,7 @@ const Navbar = (props) => {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="/"
+                href="/services"
               >
                 <span className="inline-block ml-2">Services</span>
               </a>
@@ -72,17 +73,17 @@ const Navbar = (props) => {
             </li>
 
             <li className="flex items-center">
-              <a
+              <Link
                 className={
                   (props.transparent
                     ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="/"
+                to="/team"
               >
                 <span className="inline-block ml-2">The Team</span>
-              </a>
+              </Link>
             </li>
 
             <li className="flex items-center">
@@ -94,6 +95,7 @@ const Navbar = (props) => {
                   " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                 }
                 type="button"
+                onClick={() => window.location.href = "/contact"}
                 style={{ transition: "all .15s ease" }}
               >
                 Contact Us

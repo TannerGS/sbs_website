@@ -69,12 +69,12 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="/">The Team
+                    href="/team">The Team
                   </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/">Services
+                        href="/services">Services
                     </a>
                   </li>
                   <li>
@@ -84,7 +84,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/">Contact Us
+                        href="/contact">Contact Us
                     </a>
                   </li>
                 </ul>
