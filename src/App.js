@@ -314,6 +314,7 @@ const App = () => {
             <div className="flex flex-wrap items-center mt-32">
               <div class="p-4 m-auto my-10 w-full md:w-3/12 bg-white rounded-lg border shadow-md sm:p-8 bg-gray-600 dark:border-gray-700">
                 <h5 class="mb-4 text-xl font-medium text-white text-center">Bronze Package</h5>
+                <hr className="pb-4"></hr>
                   <div class="flex items-baseline text-gray-900 dark:text-white">
                     <span class="text-3xl font-semibold">$</span>
                     <span class="text-5xl font-extrabold tracking-tight">350</span>
@@ -355,6 +356,7 @@ const App = () => {
 
               <div class="p-4 m-auto my-10 w-full md:w-3/12 bg-white rounded-lg border shadow-md sm:p-8 bg-gray-600 dark:border-gray-700">
                 <h5 class="mb-4 text-xl font-medium text-white text-center">Silver Package</h5>
+                  <hr className="pb-4"></hr>
                   <div class="flex items-baseline text-gray-900 dark:text-white">
                     <span class="text-3xl font-semibold">$</span>
                     <span class="text-5xl font-extrabold tracking-tight">650</span>
@@ -396,6 +398,7 @@ const App = () => {
               
               <div class="p-4 m-auto my-10 w-full md:w-3/12 bg-white rounded-lg border shadow-md sm:p-8 bg-gray-600 dark:border-gray-700">
                 <h5 class="mb-4 text-xl font-medium text-white text-center">Gold Package</h5>
+                  <hr className="pb-4"></hr>
                   <div class="flex items-baseline text-gray-900 dark:text-white">
                     <span class="text-3xl font-semibold">$</span>
                     <span class="text-5xl font-extrabold tracking-tight">1000</span>
