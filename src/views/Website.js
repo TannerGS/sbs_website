@@ -31,7 +31,7 @@ const Website = () => {
             </div>
           </div>
       </div>
-      <div className='p-20 mx-40 text-center' >
+      <div className='p-20 content-center items-center justify-center text-center' >
           <p className='mb-10 text-xl font-black' >Website Design and Development</p>
           <p className='text-lg' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
