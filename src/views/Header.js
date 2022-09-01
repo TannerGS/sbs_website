@@ -1,5 +1,8 @@
 import React from 'react'
 
+// image imports
+import Design from '../images/design.jpg';
+
 const Header = ({ image, mainText, subText, paragraph }) => {
   return (
     <div className="relative w-4/5 mx-auto mt-10">
@@ -8,7 +11,7 @@ const Header = ({ image, mainText, subText, paragraph }) => {
             <div className="flex items-center flex-wrap gap-12 px-2 md:px-0">
                 <div className="lg:w-6/12 lg:-ml-7">
                     <div className="relative">
-                        <img src={image} alt="pic" loading="lazy" width="640" height="640"/>
+                        <img src={Design} alt="pic" loading="lazy" width="640" height="640"/>
                     </div>
                 </div>
 
@@ -17,12 +20,12 @@ const Header = ({ image, mainText, subText, paragraph }) => {
                     <div className="mt-16 space-y-8 lg:ml-32">
                         <p className="text-gray-700">{paragraph}</p>
                         <div className="flex space-x-4 ">
-                            <button type="button" title="Start buying" className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-900 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800 sm:w-max">
+                            <button type="button" onClick={() => window.location.href = "/team"} title="Start buying" className="w-full py-3 px-6 text-center rounded-full transition duration-300 bg-gray-900 hover:bg-cyan-500 active:bg-cyan-600 focus:bg-cyan-800 sm:w-max">
                                 <span className="block text-white text-sm">
                                     About Us
                                 </span>
                             </button>
-                            <button type="button" title="Start buying" className="w-full py-3 px-6 text-center rounded-full transition border border-gray-200 sm:w-max">
+                            <button type="button" onClick={() => window.location.href = "/contact"} title="Start buying" className="w-full py-3 px-6 text-center rounded-full transition border border-gray-200 sm:w-max">
                                 <span className="block text-gray-800 text-sm">
                                     Contact Us
                                 </span>
