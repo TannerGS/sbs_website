@@ -92,7 +92,7 @@ const Services = () => {
 		<li class="flex">
 			<div class="px-4 text-5xl font-extralight text-indigo-600">02.</div>
 			<div>
-				<div class="text-xl font-bold text-indigo-800">Strategey</div>
+				<div class="text-xl font-bold text-indigo-800">Strategy</div>
 				<p class="max-w-xs py-2 text-sm text-indigo-900">Solutions are born from proper research, hard work, and
 					strong strategy. We build data-driven roadmaps for every project to make pave the way to success.
 				</p>
@@ -152,7 +152,7 @@ const Services = () => {
         <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/accounting"
+            href="/website"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
