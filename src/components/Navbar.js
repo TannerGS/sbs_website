@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Image imports
+import logo from '../images/logo.jpg'
+
 const Navbar = (props) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -21,7 +24,8 @@ const Navbar = (props) => {
             }
             href="/"
           >
-            A&T Small Business Solutions
+          <img className="w-20 h-20 mr-10 float-left" alt='logo' src={logo} />
+           <p className="display-inline mt-7" >A&T Small Business Solutions</p>
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -52,9 +56,9 @@ const Navbar = (props) => {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="/services"
+                href="/"
               >
-                <span className="inline-block ml-2">Services</span>
+                <span className="inline-block ml-2">Home</span>
               </a>
             </li>
 
@@ -66,24 +70,10 @@ const Navbar = (props) => {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="/"
+                href="/services"
               >
-                <span className="inline-block ml-2">Blog</span>
+                <span className="inline-block ml-2">Services</span>
               </a>
-            </li>
-
-            <li className="flex items-center">
-              <Link
-                className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                }
-                to="/team"
-              >
-                <span className="inline-block ml-2">The Team</span>
-              </Link>
             </li>
 
             <li className="flex items-center">

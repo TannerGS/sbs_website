@@ -6,9 +6,9 @@ import tannerHeadshot from "../images/headshot.png"
 const Team = () => {
   return (
     <div>
-        <section className="pt-20 pb-48">
+        <section className="pt-10 pb-28">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center text-center mb-24">
+            <div className="flex flex-wrap justify-center text-center mb-10">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">
                   Meet Our Team

@@ -7,7 +7,7 @@ import Team from "./components/Team.js";
 import Packages from "./components/Packages.js";
 import About from "./components/About.js";
 import Services from "./components/Services.js";
-import Relationship from "./components/Relationship.js";
+import Testimonial from "./components/Testimonial.js";
 import Header from "./components/Header.js";
 import Navbar from './components/Navbar';
 
@@ -20,9 +20,7 @@ const App = () => {
       <main>
 
         { <Header /> }
-        { <Relationship /> }
-        { <Services /> }
-        {<Packages />}
+        { <Testimonial /> }
         {<Team />}
         { <About /> }
         {<Contact />}
