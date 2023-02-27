@@ -3,7 +3,7 @@ import React from "react";
 // components
 import Footer from "./components/Footer.js";
 import Contact from "./components/Contact.js";
-import Team from "./components/Team.js";
+// import Team from "./components/Team.js";
 import About from "./components/About.js";
 import Testimonial from "./components/Testimonial.js";
 import Header from "./components/Header.js";
@@ -19,7 +19,7 @@ const App = () => {
 
         { <Header /> }
         { <Testimonial /> }
-        {<Team />}
+        {/* {<Team />} */}
         { <About /> }
         {<Contact />}
 

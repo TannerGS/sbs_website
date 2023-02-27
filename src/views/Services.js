@@ -53,13 +53,21 @@ const Services = () => {
 
       <section class="text-white bg-gray-900 pt-20">
         <div class="max-w-screen-xl px-4 pt-6 pb-16 mx-auto sm:px-6 lg:px-8">
-          <div class="max-w-lg mx-auto text-center">
+          <div class="max-w-8xl mx-auto text-center">
             <h2 class="text-3xl font-bold sm:text-4xl">Explore Our Services</h2>
 
-            <p class="mt-4 text-gray-300">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+            <p class="my-10 text-gray-300">
+              A&T Small Business Solutions offers a range of services to help
+              small businesses succeed in the digital world. We provide expert
+              website design and development to create professional and
+              user-friendly websites that showcase your business's services and
+              provide important information to potential clients. We also offer
+              digital marketing services to increase your online visibility,
+              generate leads, and drive sales. In addition, we provide
+              accounting services to help you manage your finances, track your
+              income and expenses, and make informed financial decisions.
+              Contact us today to learn more about how we can help your business
+              grow and succeed.
             </p>
           </div>
 
@@ -85,14 +93,15 @@ const Services = () => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">
-                Accounting
-              </h3>
+              <h3 class="mt-4 text-xl font-bold text-white">Accounting</h3>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                By keeping accurate and up-to-date financial records, small
+                businesses can ensure that they are compliant with tax laws and
+                can identify areas where they can save money or increase
+                profits. Additionally, having a good understanding of their
+                financial situation can help small businesses secure funding
+                from investors or lenders.
               </p>
             </a>
 
@@ -122,9 +131,11 @@ const Services = () => {
               </h3>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                A website is an essential tool for any small business. It
+                provides a professional online presence, helps attract potential
+                customers, and establishes credibility and trust. Investing in a
+                well-designed and developed website can help generate leads and
+                drive sales for a small business.
               </p>
             </a>
 
@@ -154,9 +165,12 @@ const Services = () => {
               </h3>
 
               <p class="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                By implementing a digital marketing strategy, small businesses
+                can increase their visibility online, generate leads, and drive
+                sales. Digital marketing also provides a cost-effective way for
+                small businesses to compete with larger companies. Investing in
+                digital marketing can help small businesses grow and succeed in
+                today's digital landscape.
               </p>
             </a>
           </div>
@@ -178,10 +192,29 @@ const Services = () => {
               <h2 class="text-3xl font-bold sm:text-4xl">Our Process</h2>
 
               <p class="my-10 text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
+                <h2>
+                  At A&T Small Business Solutions, we take a collaborative and
+                  personalized approach to developing solutions for small
+                  businesses. Here is an overview of our process:
+                </h2>
+                Initial consultation: We start by meeting with you to understand
+                your business goals, challenges, and needs. This helps us
+                develop a custom plan that is tailored to your unique situation.
+                Solution development: Our team of experts then works together to
+                develop a comprehensive solution that includes website design
+                and development, digital marketing, and accounting services. We
+                take into account your business's specific goals and objectives
+                to create a plan that is effective and efficient.
+                Implementation: Once the solution is finalized, our team will
+                work closely with you to implement the plan and ensure that it
+                is executed smoothly. This may involve setting up your website,
+                developing a digital marketing strategy, or providing ongoing
+                accounting support. Ongoing support: We understand that the
+                needs of small businesses can change over time. That's why we
+                offer ongoing support and consultation to help you adjust your
+                plan as needed and continue to grow and succeed. Overall, our
+                goal is to provide personalized and effective solutions that
+                help small businesses thrive in the digital world.
               </p>
 
               <a
@@ -230,7 +263,7 @@ const Services = () => {
               <p class="max-w-xs py-2 text-sm text-indigo-900">
                 Solutions are born from proper research, hard work, and strong
                 strategy. We build data-driven roadmaps for every project to
-                make pave the way to success.
+                pave the way to success.
               </p>
             </div>
           </li>
@@ -250,9 +283,10 @@ const Services = () => {
             <div>
               <div class="text-xl font-bold text-indigo-800">Development</div>
               <p class="max-w-xs py-2 text-sm text-indigo-900">
-                We build the right solution for your business. We craft
-                beautiful, intuitive, and user-friendly interfaces that are easy
-                to use and easy to maintain.
+                Our development process involves a collaborative approach that
+                begins with the prior steps and is followed by the development
+                of customized solutions that meet our clients' specific business
+                objectives.
               </p>
             </div>
           </li>
@@ -261,27 +295,27 @@ const Services = () => {
             <div>
               <div class="text-xl font-bold text-indigo-800">Deployment</div>
               <p class="max-w-xs py-2 text-sm text-indigo-900">
-                We build the right solution for your business. We craft
-                beautiful, intuitive, and user-friendly interfaces that are easy
-                to use and easy to maintain.
+                We prioritize communication and transparency throughout the
+                entire process to ensure our clients are fully engaged and
+                satisfied with the end result.
               </p>
             </div>
           </li>
           <li class="flex">
             <div class="px-4 text-5xl font-extralight text-indigo-600">06.</div>
             <div>
-              <div class="text-xl font-bold text-indigo-800">Metrics</div>
+              <div class="text-xl font-bold text-indigo-800">Repeat</div>
               <p class="max-w-xs py-2 text-sm text-indigo-900">
-                We build the right solution for your business. We craft
-                beautiful, intuitive, and user-friendly interfaces that are easy
-                to use and easy to maintain.
+                We analyze the data from the prior deployment of services so
+                that we can continue to tailor better solutions for your
+                specific business needs!
               </p>
             </div>
           </li>
         </ul>
       </div>
 
-      <div className="mt-60" >
+      <div className="mt-60">
         <Contact />
       </div>
 
