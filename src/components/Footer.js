@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
               </div>
-              <div className="w-full lg:w-4/12 px-4">
+              <div className="w-full lg:w-4/12 px-4 pt-4">
                 <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                   Useful Links
                 </span>

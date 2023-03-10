@@ -24,7 +24,7 @@ const Navbar = (props) => {
             href="/"
           >
           <img className="w-20 h-20 mr-10 float-left" alt='logo' src={logo} />
-           <p className="display-inline mt-7" >A&T Small Business Solutions</p>
+           <p className="mt-7 invisible md:visible" >Accounting & Technology Small Business Solutions</p>
           </a>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
