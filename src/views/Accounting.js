@@ -41,7 +41,7 @@ const Accounting = () => {
       <div class="p-10 mb-10 text-gray-600">
         <ul class="grid place-content-center sm:grid-cols-2 gap-8 ml-40">
           <li class="flex">
-            <div class="px-4 text-5xl font-extralight text-indigo-600">01.</div>
+            <div class="px-4 text-5xl font-extralight text-indigo-600 mt-4 mr-2">.</div>
             <div>
               <div class="text-xl font-bold text-blue-700">
                 Bookkeeping and Financial Reporting
@@ -54,7 +54,7 @@ const Accounting = () => {
             </div>
           </li>
           <li class="flex">
-            <div class="px-4 text-5xl font-extralight text-indigo-600">02.</div>
+            <div class="px-4 text-5xl font-extralight text-indigo-600 mt-4 mr-2">.</div>
             <div>
               <div class="text-xl font-bold text-blue-700">
                 Tax Preparation and Planning
@@ -67,7 +67,7 @@ const Accounting = () => {
             </div>
           </li>
           <li class="flex">
-            <div class="px-4 text-5xl font-extralight text-indigo-600">03.</div>
+            <div class="px-4 text-5xl font-extralight text-indigo-600 mt-4 mr-2">.</div>
             <div>
               <div class="text-xl font-bold text-blue-700">
                 Budgeting and Financial planning
@@ -80,7 +80,7 @@ const Accounting = () => {
             </div>
           </li>
           <li class="flex">
-            <div class="px-4 text-5xl font-extralight text-indigo-600">04.</div>
+            <div class="px-4 text-5xl font-extralight text-indigo-600 mt-4 mr-2">.</div>
             <div>
               <div class="text-xl font-bold text-blue-700">
                 Business Strategy and Decision-Making
@@ -94,7 +94,7 @@ const Accounting = () => {
           </li>
         </ul>
         <div class="p-10 flex m-auto w-600 justify-center">
-          <div class="px-4 text-5xl font-extralight text-indigo-600">05.</div>
+          <div class="px-4 text-5xl font-extralight text-indigo-600 mt-4 mr-2">.</div>
           <div>
             <div class="text-xl font-bold text-blue-700">Fraud prevention</div>
             <p class="max-w-xs py-2 text-sm text-indigo-900">
@@ -110,7 +110,7 @@ const Accounting = () => {
         <span class="flex-shrink mx-4 text-gray-400">About Austin</span>
         <div class="flex-grow border-t border-gray-400"></div>
       </div>
-      <div class="mb-80 w-2/3 text-center m-auto">
+      <div class="mb-40 w-2/3 text-center m-auto">
         <p class="text-lg">
           Meet Austin Cooper, a highly qualified accountant with a unique
           background. He holds dual degrees in Accounting and Business

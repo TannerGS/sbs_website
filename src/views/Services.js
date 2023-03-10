@@ -76,28 +76,32 @@ const Services = () => {
               class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
               href="/accounting"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+              <div class="w-1/2 m-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-10 h-10 text-pink-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  />
+                </svg>
+              </div>
 
-              <h3 class="mt-4 text-xl font-bold text-white">Accounting</h3>
+              <h3 class="mt-4 text-xl font-bold text-white text-center">
+                Accounting
+              </h3>
             </a>
 
             <a
-              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+              class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10 justify-center"
               href="/website"
             >
               <svg
@@ -117,7 +121,7 @@ const Services = () => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">
+              <h3 class="mt-4 text-xl font-bold text-white text-center">
                 Website Design and Development
               </h3>
             </a>
@@ -143,7 +147,7 @@ const Services = () => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white display-inline">
+              <h3 class="mt-4 text-xl font-bold text-white display-inline text-center">
                 Digital Marketing
               </h3>
             </a>
@@ -171,24 +175,27 @@ const Services = () => {
                   personalized approach to developing solutions for small
                   businesses. Here is an overview of our process:
                 </h2>
-                Initial consultation: We start by meeting with you to understand
-                your business goals, challenges, and needs. This helps us
-                develop a custom plan that is tailored to your unique situation.
-                Solution development: Our team of experts then works together to
-                develop a comprehensive solution that includes website design
-                and development, digital marketing, and accounting services. We
-                take into account your business's specific goals and objectives
-                to create a plan that is effective and efficient.
-                Implementation: Once the solution is finalized, our team will
-                work closely with you to implement the plan and ensure that it
-                is executed smoothly. This may involve setting up your website,
-                developing a digital marketing strategy, or providing ongoing
-                accounting support. Ongoing support: We understand that the
-                needs of small businesses can change over time. That's why we
-                offer ongoing support and consultation to help you adjust your
-                plan as needed and continue to grow and succeed. Overall, our
-                goal is to provide personalized and effective solutions that
-                help small businesses thrive in the digital world.
+                At ATSB Solutions, we take a collaborative and personalized
+                approach to developing solutions for small businesses. Here is
+                an overview of our process:<br /><p class="font-bold inline">Initial consultation:</p> We start by
+                meeting with you to understand your business goals, challenges,
+                and needs. This helps us develop a custom plan that is tailored
+                to your unique situation. <br /><p class="font-bold inline">Solution development:</p> Our team then
+                works together to develop a comprehensive solution that includes
+                website design and development, digital marketing, and
+                accounting services. We take into account your business's
+                specific goals and objectives to create a plan that is effective
+                and efficient. <br /><p class="font-bold inline">Implementation:</p> Once the solution is finalized,
+                our team will work closely with you to implement the plan and
+                ensure that it is executed smoothly. This may involve setting up
+                your website, developing a digital marketing strategy, or
+                providing ongoing accounting support. <br /><p class="font-bold inline">Ongoing support:</p> We
+                understand that the needs of small businesses can change over
+                time. That's why we offer ongoing support and consultation to
+                help you adjust your plan as needed and continue to grow and
+                succeed. Overall, our goal is to provide personalized and
+                effective solutions that help small businesses thrive in the
+                digital world.
               </p>
 
               <a

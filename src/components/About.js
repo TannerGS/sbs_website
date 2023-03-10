@@ -24,20 +24,12 @@ const About = () => {
           </svg>
         </div>
 
-        <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div className="container mx-auto px-4 lg:pt-24">
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
-              <h2 className="text-4xl font-semibold text-white mt-10">
+              <h2 className="text-4xl font-semibold text-white mt-10 mb-6">
                 We can help maximize your business!
               </h2>
-              <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                We specialize in providing customized accounting, website
-                development, and marketing solutions to small businesses. Our
-                goal is to help our clients maximize their business potential by
-                offering a comprehensive suite of services that improve their
-                financial performance, enhance their online presence, and drive
-                customer engagement.
-              </p>
             </div>
           </div>
           <div className="flex flex-wrap mt-12 justify-center">
