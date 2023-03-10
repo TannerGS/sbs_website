@@ -94,15 +94,6 @@ const Services = () => {
               </svg>
 
               <h3 class="mt-4 text-xl font-bold text-white">Accounting</h3>
-
-              <p class="mt-1 text-sm text-gray-300">
-                By keeping accurate and up-to-date financial records, small
-                businesses can ensure that they are compliant with tax laws and
-                can identify areas where they can save money or increase
-                profits. Additionally, having a good understanding of their
-                financial situation can help small businesses secure funding
-                from investors or lenders.
-              </p>
             </a>
 
             <a
@@ -129,14 +120,6 @@ const Services = () => {
               <h3 class="mt-4 text-xl font-bold text-white">
                 Website Design and Development
               </h3>
-
-              <p class="mt-1 text-sm text-gray-300">
-                A website is an essential tool for any small business. It
-                provides a professional online presence, helps attract potential
-                customers, and establishes credibility and trust. Investing in a
-                well-designed and developed website can help generate leads and
-                drive sales for a small business.
-              </p>
             </a>
 
             <a
@@ -160,18 +143,9 @@ const Services = () => {
                 />
               </svg>
 
-              <h3 class="mt-4 text-xl font-bold text-white">
+              <h3 class="mt-4 text-xl font-bold text-white display-inline">
                 Digital Marketing
               </h3>
-
-              <p class="mt-1 text-sm text-gray-300">
-                By implementing a digital marketing strategy, small businesses
-                can increase their visibility online, generate leads, and drive
-                sales. Digital marketing also provides a cost-effective way for
-                small businesses to compete with larger companies. Investing in
-                digital marketing can help small businesses grow and succeed in
-                today's digital landscape.
-              </p>
             </a>
           </div>
         </div>
